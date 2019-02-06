@@ -108,8 +108,13 @@ $ git commit -m "Adding 'utils' directory from 'master' branch."
  [master c786f95] Removing 'utils' directory.
  1 file changed, 0 insertions(+), 0 deletions(-)
  delete mode 100644 utils/file
+ $ git push
 ```
-
+### Revert to previous commit
+ ```sh
+ $ git reset --hard [previous Commit SHA id here]
+ $ git push origin [branch Name] -f
+```
 
 
 References:
